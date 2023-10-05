@@ -1,0 +1,44 @@
+.light {
+  --background-color: #f1f1f1;
+  --card-color: #fdfdfd;
+  --stats-color: #e7ecf2;
+
+  --text-color: #ffffff;
+
+  --title: #696969;
+
+  --white-color: #ffffff;
+
+  --shadow-color: #858585;
+  --shadow-card: #4d4d4d98;
+
+  --arrow: #000000;
+  --arrow-hover: #00000091;
+
+  --state-1: #7e5c00;
+  --state-1-hover: #7e5c00;
+  --state-2: #8d8ef4;
+  --state-3: #fb6c79;
+}
+.dark {
+  --background-color: #2c2c2c;
+  --card-color: #363636;
+  --stats-color: #4d4d4d;
+
+  --text-color: #000000;
+  --text-color-50: #969696;
+
+  --white-color: #ffffff;
+
+  --shadow-color: #000000;
+  --shadow-card: #131313;
+  --title: #9c9c9c;
+
+  --arrow: #ffd1d1;
+  --arrow-hover: #ffd1d177;
+
+  --state-1: #f0c85ac7;
+  --state-1-hover: #f0c85ac7;
+  --state-2: #8d8ff481;
+  --state-3: #fb6c788e;
+}

@@ -1,0 +1,21 @@
+@import '../../aditional/colors.css';
+
+.title {
+  font-size: 40px;
+  text-align: center;
+
+  color: var(--title);
+}
+
+.section {
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .title {
+    font-size: 30px;
+    text-align: center;
+  
+  }
+
+}

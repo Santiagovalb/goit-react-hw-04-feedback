@@ -1,0 +1,31 @@
+@import '../../aditional/colors.css';
+
+.btnCont {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  display: flex;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  width: 90px;
+  font-weight: bold;
+  margin: 20px auto;
+  text-align: center;
+  color: var(--state-1);
+
+  padding: 10px;
+  background-color: #00000000;
+  border-radius: 10px;
+  border: 1px solid var(--state-1);
+
+  transition: all 250ms ease;
+}
+
+.btn:hover {
+  background: var(--state-1);
+  color: var(--text-color);
+}
